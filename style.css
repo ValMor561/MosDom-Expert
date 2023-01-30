@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,400&display=swap');
 .container {
-    width: 1400px;
+    max-width: 1400px;
 }
 body {
-    background: #FBFBFB;
+    background: #000;
 }
 .name {
     margin-top: 125px;
@@ -67,6 +67,9 @@ h2 {
     font-size: 45px;
 }
 
+.about {
+    background-color: #FBFBFB;
+}
 .about h2 {
     margin-bottom: 50px;
 }
@@ -111,15 +114,21 @@ h2 {
     background: linear-gradient(180deg, rgba(79, 81, 84, 0.289) 0%, rgba(46, 52, 64, 0.748) 100%);
 }
 
+.firstrow{
+    padding-bottom: 70px;
+}
+.object {
+    background-color: #FBFBFB;
+}
 .object h2{
     margin-bottom: 65px;
 }
 
 .object .card:first-child{
-    margin-left: 15%;
+    margin-left: 0px;
 }
 .object .card{
-    margin-left: 70px;
+    margin-left: 45px;
 }
 .object .card h5{
     font-family: 'Montserrat';
@@ -181,6 +190,10 @@ h2 {
 
 .independent .inner{
     background: rgba(0, 0, 0, 0.5);
+}
+
+.garanties {
+    background-color: #FBFBFB;
 }
 
 .garanties li{
@@ -253,6 +266,7 @@ h2 {
     line-height: 24px;
     text-align: justify;
     letter-spacing: 0.01em;
+    background-color: #FBFBFB;
 }
 
 .checks p{
