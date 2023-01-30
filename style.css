@@ -291,30 +291,11 @@ h2 {
     margin-bottom: 50px;
 }
 
-.consult input {
-    height: 70px;
-    margin-bottom: 10px;
-    font-size: 25px;
-    background: none;
-    
-}
-
-.consult textarea {
-    height: 200px;
-    font-size: 25px;
-    background: none;
-}
-
-.consult button{
-    padding: 10px 60px;
-    margin-top: 60px;
-    font-family: 'Montserrat';
+.consult p{
     font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 20px;
-}
-
-.consult img{
-    margin-left: 150px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: justify;
+    letter-spacing: 0.01em;
 }
